@@ -28,6 +28,10 @@ public partial class Restaurant
     [StringLength(255)]
     public string? LogoUrl { get; set; }
 
+
+    [StringLength(255)]
+    public string? MenuItemPath { get; set; }
+
     [StringLength(255)]
     public string? CoverImageUrl { get; set; }
 

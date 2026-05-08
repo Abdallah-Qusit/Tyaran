@@ -1,0 +1,61 @@
+﻿@model Tyaran.DAL.Entities.Generated.MenuItem
+
+<h1>Edit Menu Item</h1>
+
+<form asp-action="Edit"
+      method="post"
+      enctype="multipart/form-data">
+
+    <input type="hidden" asp-for="ItemId" />
+    <input type="hidden" asp-for="ImageUrl" />
+
+    <div class="mb-3">
+        <label>Name</label>
+        <input asp-for="Name"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Description</label>
+        <textarea asp-for="Description"
+                  class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label>Current Image</label>
+        <br />
+        <img src="@Model.ImageUrl"
+             width="150"
+             style="object-fit:cover;" />
+    </div>
+
+    <div class="mb-3">
+        <label>Replace Image</label>
+        <input type="file"
+               name="imageFile"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Price</label>
+        <input asp-for="Price"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Preparation Time</label>
+        <input asp-for="PreparationTime"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Category ID</label>
+        <input asp-for="MenuCatId"
+               class="form-control" />
+    </div>
+
+    <button type="submit"
+            class="btn btn-success">
+        Save
+    </button>
+</form>

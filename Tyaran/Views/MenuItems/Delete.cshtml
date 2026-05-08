@@ -1,0 +1,30 @@
+﻿@model Tyaran.DAL.Entities.Generated.MenuItem
+
+<h1>Delete Menu Item</h1>
+
+<h3>
+    Are you sure you want to delete this?
+</h3>
+
+<div>
+
+    <h4>@Model.Name</h4>
+
+</div>
+
+<form asp-action="Delete">
+
+    <input type="hidden"
+           asp-for="ItemId" />
+
+    <button type="submit"
+            class="btn btn-danger">
+        Delete
+    </button>
+
+    <a asp-action="Index"
+           class="btn btn-secondary">
+        Cancel
+    </a>
+
+</form>

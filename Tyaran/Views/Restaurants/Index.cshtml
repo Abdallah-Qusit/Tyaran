@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Tyaran.DAL.Entities.Generated.Restaurant>
+
+<h1>Restaurants</h1>
+
+<p>
+    <a asp-action="Create"
+           class="btn btn-primary">
+        Create New Restaurant
+    </a>
+</p>
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Logo</th>
+            <th>Description</th>
+            <th>Delivery Fee</th>
+            <th>Rating</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@item.RestaurantId</td>
+
+                <td>@item.Name</td>
+
+                <td>
+                    <img src="@item.LogoUrl"
+                         width="100"
+                         height="100"
+                         style="object-fit:cover;" />
+                </td>
+
+                <td>@item.Description</td>
+
+                <td>@item.DeliveryFee</td>
+
+                <td>@item.Rating</td>
+
+                <td>
+
+                    <a asp-action="Details"
+                           asp-route-id="@item.RestaurantId"
+                           class="btn btn-info">
+                        Details
+                    </a>
+
+                    <a asp-action="Edit"
+                           asp-route-id="@item.RestaurantId"
+                           class="btn btn-warning">
+                        Edit
+                    </a>
+
+                    <a asp-action="Delete"
+                           asp-route-id="@item.RestaurantId"
+                           class="btn btn-danger">
+                        Delete
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

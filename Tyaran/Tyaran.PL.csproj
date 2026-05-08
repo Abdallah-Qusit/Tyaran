@@ -31,4 +31,9 @@
     <ProjectReference Include="..\Tyaran.BLL\Tyaran.BLL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\menuitems\" />
+    <Folder Include="wwwroot\images\Restaurants\" />
+  </ItemGroup>
+
 </Project>

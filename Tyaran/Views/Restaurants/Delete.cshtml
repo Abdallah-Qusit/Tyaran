@@ -1,0 +1,32 @@
+﻿@model Tyaran.DAL.Entities.Generated.Restaurant
+
+<h1>Delete Restaurant</h1>
+
+<h3>
+    Are you sure you want to delete this?
+</h3>
+
+<div>
+
+    <h4>@Model.Name</h4>
+
+    <p>@Model.Description</p>
+
+</div>
+
+<form asp-action="Delete">
+
+    <input type="hidden"
+           asp-for="RestaurantId" />
+
+    <button type="submit"
+            class="btn btn-danger">
+        Delete
+    </button>
+
+    <a asp-action="Index"
+           class="btn btn-secondary">
+        Cancel
+    </a>
+
+</form>

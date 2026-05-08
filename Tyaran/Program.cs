@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Tyaran.BLL.Services.Abstraction;
+using Tyaran.BLL.Services.Implementation;
 using Tyaran.DAL.Database;
+using Tyaran.DAL.Repositories.Abstraction;
+using Tyaran.DAL.Repositories.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +40,30 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 })
 .AddEntityFrameworkStores<IdentityAppDbContext>()
 .AddDefaultTokenProviders();
+
+builder.Services.AddScoped<
+    IRestaurantRepository,
+    RestaurantRepository>();
+
+builder.Services.AddScoped<
+    IRestaurantService,
+    RestaurantService>();
+
+builder.Services.AddScoped<
+    IMenuCategoryRepository,
+    MenuCategoryRepository>();
+
+builder.Services.AddScoped<
+    IMenuCategoryService,
+    MenuCategoryService>();
+
+builder.Services.AddScoped<
+    IMenuItemRepository,
+    MenuItemRepository>();
+
+builder.Services.AddScoped<
+    IMenuItemService,
+    MenuItemService>();
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -57,3 +85,4 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.Run();
+app.UseStaticFiles();

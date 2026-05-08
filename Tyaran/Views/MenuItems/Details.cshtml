@@ -1,0 +1,17 @@
+﻿@model Tyaran.DAL.Entities.Generated.MenuItem
+
+<h1>Menu Item Details</h1>
+
+<div class="card p-3">
+
+    <img src="@Model.ImageUrl"
+         width="200"
+         style="object-fit:cover;" />
+
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Price:</strong> @Model.Price</p>
+    <p><strong>Preparation Time:</strong> @Model.PreparationTime</p>
+    <p><strong>Category ID:</strong> @Model.MenuCatId</p>
+
+</div>

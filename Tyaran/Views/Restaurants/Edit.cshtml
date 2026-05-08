@@ -1,0 +1,54 @@
+﻿@model Tyaran.DAL.Entities.Generated.Restaurant
+
+<h1>Edit Restaurant</h1>
+
+<form asp-action="Edit"
+      method="post"
+      enctype="multipart/form-data">
+
+    <input type="hidden" asp-for="RestaurantId" />
+    <input type="hidden" asp-for="LogoUrl" />
+
+    <div class="mb-3">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Description</label>
+        <textarea asp-for="Description"
+                  class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label>Current Logo</label>
+        <br />
+        <img src="@Model.LogoUrl"
+             width="150"
+             style="object-fit:cover;" />
+    </div>
+
+    <div class="mb-3">
+        <label>Replace Logo</label>
+        <input type="file"
+               name="logoFile"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Delivery Fee</label>
+        <input asp-for="DeliveryFee"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Review</label>
+        <textarea asp-for="Review"
+                  class="form-control"></textarea>
+    </div>
+
+    <button type="submit"
+            class="btn btn-success">
+        Save
+    </button>
+</form>

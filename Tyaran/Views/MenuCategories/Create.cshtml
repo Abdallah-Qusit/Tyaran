@@ -1,0 +1,39 @@
+﻿@model Tyaran.DAL.Entities.Generated.MenuCategory
+
+<h1>Create Menu Category</h1>
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+
+        <label>Category Name</label>
+
+        <input asp-for="Cartname"
+               class="form-control" />
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Restaurant ID</label>
+
+        <input asp-for="RestaurantId"
+               class="form-control" />
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Inactive</label>
+
+        <input asp-for="InActive"
+               type="checkbox" />
+
+    </div>
+
+    <button type="submit"
+            class="btn btn-success">
+        Create
+    </button>
+
+</form>

@@ -1,0 +1,47 @@
+﻿@model Tyaran.DAL.Entities.Generated.Restaurant
+
+<h1>Restaurant Details</h1>
+
+<div class="card p-3">
+
+    <img src="@Model.LogoUrl"
+         width="200"
+         height="200"
+         style="object-fit:cover;" />
+
+    <h3>@Model.Name</h3>
+
+    <p>
+        <strong>Description:</strong>
+        @Model.Description
+    </p>
+
+    <p>
+        <strong>Delivery Fee:</strong>
+        @Model.DeliveryFee
+    </p>
+
+    <p>
+        <strong>Rating:</strong>
+        @Model.Rating
+    </p>
+
+    <p>
+        <strong>Review:</strong>
+        @Model.Review
+    </p>
+
+</div>
+
+<br />
+
+<a asp-action="Edit"
+       asp-route-id="@Model.RestaurantId"
+       class="btn btn-warning">
+    Edit
+</a>
+
+<a asp-action="Index"
+       class="btn btn-secondary">
+    Back
+</a>
