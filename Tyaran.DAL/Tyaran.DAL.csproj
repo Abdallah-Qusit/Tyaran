@@ -9,8 +9,6 @@
   <ItemGroup>
     <Folder Include="Enum\" />
     <Folder Include="Common\" />
-    <Folder Include="Repo\Implementation\" />
-    <Folder Include="Repo\Abstraction\" />
   </ItemGroup>
 
   <ItemGroup>

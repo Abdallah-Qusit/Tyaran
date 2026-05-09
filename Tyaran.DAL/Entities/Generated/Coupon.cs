@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Tyaran.DAL.Entities.Generated;
 
-[Index("Code", Name = "UQ__Coupons__A25C5AA74C4D887B", IsUnique = true)]
+[Index("Code", Name = "UQ__Coupons__A25C5AA74297304E", IsUnique = true)]
 public partial class Coupon
 {
     [Key]

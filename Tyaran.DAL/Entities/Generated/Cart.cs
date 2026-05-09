@@ -25,4 +25,9 @@ public partial class Cart
     [ForeignKey("UserId")]
     [InverseProperty("Carts")]
     public virtual User? User { get; set; }
+
+    public static implicit operator Cart(int v)
+    {
+        throw new NotImplementedException();
+    }
 }

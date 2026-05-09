@@ -38,10 +38,6 @@ public partial class User
     [InverseProperty("User")]
     public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 
-    [ForeignKey("IdentityUserId")]
-    [InverseProperty("Users")]
-    public virtual AspNetUser IdentityUser { get; set; } = null!;
-
     [InverseProperty("User")]
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 

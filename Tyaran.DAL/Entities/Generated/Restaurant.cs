@@ -48,6 +48,15 @@ public partial class Restaurant
     [StringLength(255)]
     public string? Review { get; set; }
 
+    [StringLength(255)]
+    public string? CommercialRegisterPath { get; set; }
+
+    [StringLength(255)]
+    public string? LogoPath { get; set; }
+
+    [StringLength(255)]
+    public string? MenuItemPath { get; set; }
+
     [ForeignKey("AddressId")]
     [InverseProperty("Restaurants")]
     public virtual Address? Address { get; set; }

@@ -29,6 +29,9 @@ public partial class DeliveryMan
     [StringLength(50)]
     public string? VehicleType { get; set; }
 
+    [StringLength(255)]
+    public string? NationalIdPath { get; set; }
+
     [InverseProperty("Driver")]
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }
