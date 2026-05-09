@@ -1,0 +1,186 @@
+﻿@using Tyaran.DAL.Entities.Generated
+@model Order
+
+<h2>Delivery Navigation</h2>
+
+<!-- ORDER INFO -->
+<div style="border:1px solid #ccc; padding:10px; margin-bottom:10px;">
+    <p><b>Restaurant:</b> @Model.Restaurant.Name</p>
+    <p><b>Restaurant phone(s):</b></p>
+
+    <ul>
+        @foreach (var phone in Model.Restaurant.RestaurantPhones)
+        {
+            <li>@phone.PhoneNumber</li>
+        }
+    </ul>
+    <p><b>Customer:</b> @Model.User.FirstName</p>
+    <p><b>Customer phone(s):</b></p>
+
+    <ul>
+        @foreach (var phone in Model.User.UserPhones)
+        {
+            <li>@phone.PhoneNumber</li>
+        }
+    </ul>
+</div>
+
+<!-- STATUS BAR -->
+<div id="statusBar" style="margin-bottom:10px;">
+    <button onclick="updateStatus('PickedUp')">Picked Up</button>
+    <button onclick="updateStatus('OnTheWay')">On The Way</button>
+    <button onclick="confirmDelivered()">Delivered</button>
+</div>
+<hr />
+
+<!-- MAP -->
+<div id="map" style="height:500px;"></div>
+
+<!-- CONFIRM DELIVERY MODAL -->
+<div id="confirmModal"
+     style="display:none; background:#fff; border:1px solid #000;
+            padding:20px; position:fixed; top:30%; left:40%; z-index:1000;">
+    <p>Confirm order delivered?</p>
+    <button onclick="finishDelivery()">Yes</button>
+    <button onclick="closeModal()">Cancel</button>
+</div>
+
+@section Scripts {
+
+    <!-- Leaflet -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Leaflet Routing -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+
+    <script>
+        const orderId = @Model.OrderId;
+
+        // ✅ Restaurant coordinates
+        const restaurantLat = @Model.Restaurant.Address.Latitude;
+        const restaurantLng = @Model.Restaurant.Address.Longitude;
+
+        // ✅ Customer coordinates
+        const customerLat = @Model.Address.Latitude;
+        const customerLng = @Model.Address.Longitude;
+
+        let map;
+        let routingControl;
+        let driverMarker;
+
+        function initMap(driverLat, driverLng) {
+
+            // Center map between restaurant & customer
+            const centerLat = (restaurantLat + customerLat) / 2;
+            const centerLng = (restaurantLng + customerLng) / 2;
+
+            map = L.map('map').setView([centerLat, centerLng], 13);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '© OpenStreetMap'
+            }).addTo(map);
+
+            // ✅ Restaurant marker
+            L.marker([restaurantLat, restaurantLng])
+                .addTo(map)
+                .bindTooltip("Restaurant", {
+                        permanent: true,
+                        direction: "top",
+                        className: "marker-label"
+                    });
+
+
+            // ✅ Customer marker
+            L.marker([customerLat, customerLng])
+                .addTo(map)
+                .bindTooltip("Customer", {
+                        permanent: true,
+                        direction: "top",
+                        className: "marker-label"
+                    });
+
+
+            // ✅ Driver marker
+            driverMarker = L.marker([driverLat, driverLng], {
+            }).addTo(map).bindPopup("You");
+
+            // ✅ Route: Driver → Restaurant → Customer
+            routingControl = L.Routing.control({
+                waypoints: [
+                    L.latLng(driverLat, driverLng),
+                    L.latLng(restaurantLat, restaurantLng),
+                    L.latLng(customerLat, customerLng)
+                ],
+                routeWhileDragging: false,
+                addWaypoints: false,
+                draggableWaypoints: false,
+                show: false,
+                lineOptions: {
+                    styles: [{ color: 'blue', weight: 5 }]
+                }
+            }).addTo(map);
+        }
+
+        function updateRoute(driverLat, driverLng) {
+            driverMarker.setLatLng([driverLat, driverLng]);
+
+            routingControl.setWaypoints([
+                L.latLng(driverLat, driverLng),
+                L.latLng(restaurantLat, restaurantLng),
+                L.latLng(customerLat, customerLng)
+            ]);
+        }
+
+        // ✅ Live GPS tracking (interactive)
+        if (navigator.geolocation) {
+            navigator.geolocation.watchPosition(
+                function (pos) {
+                    const lat = pos.coords.latitude;
+                    const lng = pos.coords.longitude;
+
+                    if (!map) {
+                        initMap(lat, lng);
+                    } else {
+                        updateRoute(lat, lng);
+                    }
+                },
+                function () {
+                    alert("Please allow location access to navigate.");
+                },
+                {
+                    enableHighAccuracy: true,
+                    maximumAge: 2000,
+                    timeout: 10000
+                }
+            );
+        } else {
+            alert("Geolocation not supported in this browser.");
+        }
+
+        // ✅ Order status actions
+        function updateStatus(status) {
+            fetch(`/Delivery/UpdateStatus?orderId=${orderId}&status=${status}`, {
+                method: "POST"
+            });
+        }
+
+        function confirmDelivered() {
+            document.getElementById('confirmModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('confirmModal').style.display = 'none';
+        }
+
+        function finishDelivery() {
+            updateStatus("Delivered");
+            alert("Delivery completed");
+            window.location.href = "/Delivery/Index";
+        }
+    </script>
+}

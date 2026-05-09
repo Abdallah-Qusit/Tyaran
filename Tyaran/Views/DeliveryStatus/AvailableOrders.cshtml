@@ -1,0 +1,20 @@
+﻿@using Tyaran.DAL.Entities.Generated
+@model List<Order>
+
+<h2>Available Orders</h2>
+
+@foreach (var order in Model)
+{
+    <div style="border:1px solid #ccc; padding:10px; margin:10px;">
+        <p>Order ID: @order.OrderId</p>
+        <p>Status: @order.OrderStatus</p>
+        <p>Total: @order.TotalAmount</p>
+
+        <form method="post" asp-action="AcceptOrder">
+            <input type="hidden" name="orderId" value="@order.OrderId" />
+            <input type="hidden" name="deliveryManId" value="@ViewBag.DeliveryManId" />
+
+            <button type="submit">Accept Order</button>
+        </form>
+    </div>
+}

@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    int deliveryManId = ViewBag.DeliveryManId ?? 0;
+}
+
+<h2>Delivery Dashboard</h2>
+
+<form method="post" asp-action="ToggleStatus">
+    <input type="hidden" name="deliveryManId" value="@deliveryManId" />
+
+    <button name="isOnline" value="true" type="submit">
+        Go Online
+    </button>
+
+    <button name="isOnline" value="false" type="submit">
+        Go Offline
+    </button>
+</form>
+
+<hr />
+
+<a asp-action="AvailableOrders"
+   asp-route-deliveryManId="@deliveryManId">
+    View Available Orders
+</a>
+
+<hr />
+
+<a asp-action="SessionEarnings"
+   asp-route-deliveryManId="@deliveryManId">
+    Session Earnings
+</a>
+
+<br />
+
+<a asp-action="TotalEarnings"
+   asp-route-deliveryManId="@deliveryManId">
+    Total Earnings
+</a>

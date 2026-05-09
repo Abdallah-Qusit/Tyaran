@@ -1,6 +1,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Tyaran.BLL.Service.Abstraction;
+using Tyaran.BLL.Service.Implementation;
 using Tyaran.DAL.Database;
+using Tyaran.DAL.Repo.Abstraction;
+using Tyaran.DAL.Repo.Implementation;
+//using Tyaran.DAL.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +21,19 @@ builder.Services.AddDbContext<TyaranDbContext>(options =>
 // ------------------- Database (Identity) -------------------
 builder.Services.AddDbContext<IdentityAppDbContext>(options =>
     options.UseSqlServer(connectionString));
-
+//Repos
+builder.Services.AddScoped<IUserHomeRepo,UserHomeRepo>();
+builder.Services.AddScoped<IUserHomeService,UserHomeService>();
+builder.Services.AddScoped<IUserCartRepo,UserCartRepo>();
+builder.Services.AddScoped<IUserCartService,UserCartService>();
+builder.Services.AddScoped<IUserMenuRepo,UserMenuRepo>();
+builder.Services.AddScoped<IUserMenuService,UserMenuService>();
+builder.Services.AddScoped<IUserProfileRepo,UserProfileRepo>();
+builder.Services.AddScoped<IUserProfileService,UserProfileService>();
+builder.Services.AddScoped<IUserTrackRepo,UserTrackRepo>();
+builder.Services.AddScoped<IUserTrackService,UserTrackService>();
+builder.Services.AddScoped<IDeliveryStatusRepo,DeliveryStatusRepo>();
+builder.Services.AddScoped<IDeliveryStatusService,DeliveryStatusService>();
 // ------------------- Identity -------------------
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {

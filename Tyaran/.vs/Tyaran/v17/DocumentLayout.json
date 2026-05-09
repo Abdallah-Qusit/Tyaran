@@ -1,26 +1,173 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran\\",
+  "WorkspaceRootPath": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|a:\\engineering\\.net projects\\tyaran repo\\tyaran\\tyaran.dal\\database\\tyarandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\implementation\\deliverystatusrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|a:\\engineering\\.net projects\\tyaran repo\\tyaran\\tyaran.dal\\database\\identityappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\abstraction\\ideliverystatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|a:\\engineering\\.net projects\\tyaran repo\\tyaran\\tyaran\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\abstraction\\ideliverystatusrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\views\\deliverystatus\\track.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:views\\deliverystatus\\track.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\controllers\\deliverystatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:controllers\\deliverystatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\views\\deliverystatus\\availableorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:views\\deliverystatus\\availableorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\controllers\\usertrackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:controllers\\usertrackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\implementation\\deliverystatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\abstraction\\iusercartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\implementation\\usercartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\implementation\\usertrackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\controllers\\userhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:controllers\\userhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\implementation\\usertrackrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\implementation\\usercartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\abstraction\\iusertrackrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\database\\tyarandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\views\\deliverystatus\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:views\\deliverystatus\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\views\\deliverystatus\\sessionearnings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:views\\deliverystatus\\sessionearnings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\views\\deliverystatus\\totalearnings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:views\\deliverystatus\\totalearnings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\entities\\generated\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\abstraction\\iusercartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\implementation\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\abstraction\\iusertrackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\abstraction\\iuserprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\implementation\\userprofilerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\abstraction\\iuserprofilerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\implementation\\usermenurepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\implementation\\userhomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\implementation\\userhomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\implementation\\usermenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\entities\\generated\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\abstraction\\iusermenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\abstraction\\iuserhomerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\repo\\abstraction\\iusermenurepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2532AB66-8A34-4791-8F90-BAC38CE3FC99}|..\\Tyaran.BLL\\Tyaran.BLL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.bll\\service\\abstraction\\iuserhomeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\database\\identityappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|c:\\users\\asa2c\\onedrive\\dokumenter\\tyaran\\tyaran.dal\\entities\\generated\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\TyaranDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Migrations\\20260507141449_CreateIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|a:\\engineering\\.net projects\\tyaran repo\\tyaran\\tyaran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DDD5FCA-7197-41B9-8399-682C0596AF4A}|Tyaran.PL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Entities\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4BD83EB-8190-44C1-B0FB-AD1371445225}|..\\Tyaran.DAL\\Tyaran.DAL.csproj|a:\\engineering\\.net projects\\tyaran repo\\tyaran\\tyaran.dal\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,85 +177,634 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20260507141449_CreateIdentityTables.cs",
-              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Migrations\\20260507141449_CreateIdentityTables.cs",
-              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Migrations\\20260507141449_CreateIdentityTables.cs",
-              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Migrations\\20260507141449_CreateIdentityTables.cs",
-              "RelativeToolTip": "..\\Tyaran.DAL\\Migrations\\20260507141449_CreateIdentityTables.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:14:50.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Entities\\ApplicationUser.cs",
-              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "..\\Tyaran.DAL\\Entities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T12:00:07.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IdentityAppDbContext.cs",
-              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
-              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
-              "RelativeToolTip": "..\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T11:59:02.966Z",
+              "Title": "Track.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\Track.cshtml",
+              "RelativeDocumentMoniker": "Views\\DeliveryStatus\\Track.cshtml",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\Track.cshtml",
+              "RelativeToolTip": "Views\\DeliveryStatus\\Track.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T01:36:57.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TyaranDbContext.cs",
-              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
-              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
-              "RelativeToolTip": "..\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "DeliveryStatusRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\DeliveryStatusRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Implementation\\DeliveryStatusRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\DeliveryStatusRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Implementation\\DeliveryStatusRepo.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswF4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T11:18:06.568Z",
+              "WhenOpened": "2026-05-08T21:32:11.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDeliveryStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IDeliveryStatusService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Abstraction\\IDeliveryStatusService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IDeliveryStatusService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Abstraction\\IDeliveryStatusService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:36:11.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DeliveryStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\DeliveryStatusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeliveryStatusController.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\DeliveryStatusController.cs",
+              "RelativeToolTip": "Controllers\\DeliveryStatusController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwCwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:52:12.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserTrackController.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\UserTrackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserTrackController.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\UserTrackController.cs",
+              "RelativeToolTip": "Controllers\\UserTrackController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:53:11.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AvailableOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\AvailableOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\DeliveryStatus\\AvailableOrders.cshtml",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\AvailableOrders.cshtml",
+              "RelativeToolTip": "Views\\DeliveryStatus\\AvailableOrders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T22:45:15.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeliveryStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\DeliveryStatusService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Implementation\\DeliveryStatusService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\DeliveryStatusService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Implementation\\DeliveryStatusService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:38:15.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDeliveryStatusRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IDeliveryStatusRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Abstraction\\IDeliveryStatusRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IDeliveryStatusRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Abstraction\\IDeliveryStatusRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:30:54.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserCartRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserCartRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserCartRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserCartRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserCartRepo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T22:03:49.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserCartService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserCartService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Implementation\\UserCartService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserCartService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Implementation\\UserCartService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwFMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:48:04.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserTrackService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserTrackService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Implementation\\UserTrackService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserTrackService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Implementation\\UserTrackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:04:00.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T16:54:51.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserProfileController.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "Controllers\\UserProfileController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:14:34.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T00:11:50.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\UserHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserHomeController.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\UserHomeController.cs",
+              "RelativeToolTip": "Controllers\\UserHomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:45:35.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:42:13.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserTrackRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserTrackRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Implementation\\UserTrackRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserTrackRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Implementation\\UserTrackRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:26:40.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserCartRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserCartRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Implementation\\UserCartRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserCartRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Implementation\\UserCartRepo.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T22:15:14.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserTrackRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserTrackRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserTrackRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserTrackRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserTrackRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:25:42.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TyaranDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvygAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T16:11:22.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\DeliveryStatus\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\DeliveryStatus\\Dashboard.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T22:25:11.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SessionEarnings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\SessionEarnings.cshtml",
+              "RelativeDocumentMoniker": "Views\\DeliveryStatus\\SessionEarnings.cshtml",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\SessionEarnings.cshtml",
+              "RelativeToolTip": "Views\\DeliveryStatus\\SessionEarnings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T23:34:41.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TotalEarnings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\TotalEarnings.cshtml",
+              "RelativeDocumentMoniker": "Views\\DeliveryStatus\\TotalEarnings.cshtml",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\DeliveryStatus\\TotalEarnings.cshtml",
+              "RelativeToolTip": "Views\\DeliveryStatus\\TotalEarnings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T23:35:20.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Program.cs",
-              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran\\Program.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T01:32:03.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 24,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Entities\\Generated\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Entities\\Generated\\Order.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Entities\\Generated\\Order.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Entities\\Generated\\Order.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:52:29.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-08T22:10:09.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
-              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-07T01:24:23.235Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:20:21.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUserTrackService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserTrackService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserTrackService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserTrackService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserTrackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:02:27.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserCartService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserCartService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserCartService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserCartService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserCartService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:41:29.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserProfileService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Implementation\\UserProfileService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserProfileService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Implementation\\UserProfileService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:59:06.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUserProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserProfileService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserProfileService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserProfileService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:57:42.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserProfileRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserProfileRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Implementation\\UserProfileRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserProfileRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Implementation\\UserProfileRepo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:31:41.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUserProfileRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserProfileRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserProfileRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserProfileRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserProfileRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:30:13.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserHomeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserHomeRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Implementation\\UserHomeRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserHomeRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Implementation\\UserHomeRepo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:32:52.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserMenuRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserMenuRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Implementation\\UserMenuRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Implementation\\UserMenuRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Implementation\\UserMenuRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T21:54:51.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserHomeService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserHomeService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Implementation\\UserHomeService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserHomeService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Implementation\\UserHomeService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:21:00.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Entities\\Generated\\CartItem.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Entities\\Generated\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Entities\\Generated\\CartItem.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Entities\\Generated\\CartItem.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T14:28:04.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserMenuService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserMenuService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Implementation\\UserMenuService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Implementation\\UserMenuService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Implementation\\UserMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:59:32.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUserMenuService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserMenuService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserMenuService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserMenuService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:57:59.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUserMenuRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserMenuRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserMenuRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserMenuRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserMenuRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T21:53:03.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:42:33.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IUserHomeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserHomeRepo.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserHomeRepo.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Repo\\Abstraction\\IUserHomeRepo.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Repo\\Abstraction\\IUserHomeRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:22:24.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IUserHomeService.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserHomeService.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserHomeService.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.BLL\\Service\\Abstraction\\IUserHomeService.cs",
+              "RelativeToolTip": "..\\Tyaran.BLL\\Service\\Abstraction\\IUserHomeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T19:19:59.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Entities\\Generated\\Address.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Entities\\Generated\\Address.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Entities\\Generated\\Address.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Entities\\Generated\\Address.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T16:40:43.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IdentityAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
+              "ToolTip": "C:\\Users\\Asa2c\\OneDrive\\Dokumenter\\Tyaran\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
+              "RelativeToolTip": "..\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:08:26.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IdentityAppDbContext.cs",
+              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
+              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\IdentityAppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T11:59:02.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20260507141449_CreateIdentityTables.cs",
+              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Migrations\\20260507141449_CreateIdentityTables.cs",
+              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Migrations\\20260507141449_CreateIdentityTables.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T14:14:50.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TyaranDbContext.cs",
+              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
+              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Database\\TyaranDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T11:18:06.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Entities\\ApplicationUser.cs",
+              "ToolTip": "A:\\Engineering\\.NET projects\\Tyaran Repo\\Tyaran\\Tyaran.DAL\\Entities\\ApplicationUser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T12:00:07.39Z"
             }
           ]
         }
