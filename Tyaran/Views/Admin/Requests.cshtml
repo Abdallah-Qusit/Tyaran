@@ -1,0 +1,219 @@
+﻿@using Tyaran.DAL.Entities.Generated
+@model Tyaran.BLL.ModelVM.Admin.PendingRequestsVm
+
+<h2>Pending Requests</h2>
+
+<hr />
+
+<h3>Pending Delivery Requests</h3>
+
+@if (Model.Deliveries == null || !Model.Deliveries.Any())
+{
+    <p>No pending delivery requests.</p>
+}
+else
+{
+    foreach (var item in Model.Deliveries)
+    {
+        <div style="border:1px solid #aaa; padding:10px; margin-bottom:10px;">
+
+            <p>
+                <b>Name:</b>
+                @(item.User?.FirstName ?? "N/A")
+            </p>
+
+            <p>
+                <b>Email:</b>
+                @(item.User?.Email ?? "N/A")
+            </p>
+
+            <p><b>Phones:</b></p>
+
+            @foreach (var phone in item.User?.UserPhones ?? new List<UserPhone>())
+            {
+                <p>📞 @phone.PhoneNumber</p>
+            }
+
+            <p>
+                <b>Vehicle:</b>
+                @(item.Delivery?.VehicleType ?? "N/A")
+            </p>
+
+            <p>
+                <b>National ID:</b>
+
+                @if (!string.IsNullOrEmpty(item.Delivery?.NationalIdPath))
+                {
+                    <a href="@item.Delivery.NationalIdPath"
+                       target="_blank">
+
+                        View
+
+                    </a>
+                }
+                else
+                {
+                    <span>N/A</span>
+                }
+            </p>
+
+            <form asp-action="ApproveDelivery"
+                  method="post"
+                  style="display:inline;">
+
+                <input type="hidden"
+                       name="id"
+                       value="@item.Delivery.DriverId" />
+
+                <button type="submit">
+                    Approve
+                </button>
+
+            </form>
+
+            <form asp-action="RejectDelivery"
+                  method="post"
+                  style="display:inline;">
+
+                <input type="hidden"
+                       name="id"
+                       value="@item.Delivery.DriverId" />
+
+                <button type="submit">
+                    Reject
+                </button>
+
+            </form>
+
+        </div>
+    }
+}
+
+<hr />
+
+<h3>Pending Restaurant Requests</h3>
+
+@if (Model.Restaurants == null || !Model.Restaurants.Any())
+{
+    <p>No pending restaurant requests.</p>
+}
+else
+{
+    foreach (var r in Model.Restaurants)
+    {
+        <div style="border:1px solid #aaa; padding:10px; margin-bottom:10px;">
+
+            <p>
+                <b>Restaurant:</b>
+                @r.Name
+            </p>
+
+            <p>
+                <b>Owner:</b>
+                @(r.Owner?.FirstName ?? "N/A")
+            </p>
+
+            <p>
+                <b>Email:</b>
+                @(r.Owner?.Email ?? "N/A")
+            </p>
+
+            <p><b>Phones:</b></p>
+
+            @foreach (var phone in r.RestaurantPhones ?? new List<RestaurantPhone>())
+            {
+                <p>📞 @phone.PhoneNumber</p>
+            }
+
+            <p>
+                <b>Logo:</b>
+
+                @if (!string.IsNullOrEmpty(r.LogoUrl))
+                {
+                    <a href="@r.LogoUrl"
+                       target="_blank">
+
+                        View
+
+                    </a>
+                }
+                else
+                {
+                    <span>N/A</span>
+                }
+            </p>
+
+            <p>
+                <b>Commercial Register:</b>
+
+                @if (!string.IsNullOrEmpty(r.CommercialRegisterPath))
+                {
+                    <a href="@r.CommercialRegisterPath"
+                       target="_blank">
+
+                        View
+
+                    </a>
+                }
+                else
+                {
+                    <span>N/A</span>
+                }
+            </p>
+
+            <p>
+                <b>City:</b>
+                @(r.Address?.City ?? "N/A")
+            </p>
+
+            <p>
+                <b>Street:</b>
+                @(r.Address?.Street ?? "N/A")
+            </p>
+
+            @if (r.Address?.Latitude != null &&
+                r.Address?.Longitude != null)
+            {
+                <p>
+
+                    <a target="_blank"
+                       href="https://www.openstreetmap.org/?mlat=@(r.Address.Latitude)&mlon=@(r.Address.Longitude)#map=17/@(r.Address.Latitude)/@(r.Address.Longitude)">
+
+                        📍 View Location
+
+                    </a>
+
+                </p>
+            }
+
+            <form asp-action="ApproveRestaurant"
+                  method="post"
+                  style="display:inline;">
+
+                <input type="hidden"
+                       name="id"
+                       value="@r.RestaurantId" />
+
+                <button type="submit">
+                    Approve
+                </button>
+
+            </form>
+
+            <form asp-action="RejectRestaurant"
+                  method="post"
+                  style="display:inline;">
+
+                <input type="hidden"
+                       name="id"
+                       value="@r.RestaurantId" />
+
+                <button type="submit">
+                    Reject
+                </button>
+
+            </form>
+
+        </div>
+    }
+}

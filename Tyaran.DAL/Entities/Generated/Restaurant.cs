@@ -38,6 +38,7 @@ public partial class Restaurant
     public double? Rating { get; set; }
 
     public bool? IsActive { get; set; }
+    public int ApprovalStatus { get; set; } = 0;
 
     [Column(TypeName = "datetime")]
     public DateTime? CreatedAt { get; set; }
@@ -47,6 +48,15 @@ public partial class Restaurant
 
     [StringLength(255)]
     public string? Review { get; set; }
+
+    [StringLength(255)]
+    public string? CommercialRegisterPath { get; set; }
+
+    [StringLength(255)]
+    public string? LogoPath { get; set; }
+
+    [StringLength(255)]
+    public string? MenuItemPath { get; set; }
 
     [ForeignKey("AddressId")]
     [InverseProperty("Restaurants")]

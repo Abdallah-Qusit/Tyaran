@@ -51,6 +51,12 @@ public partial class User
     [InverseProperty("User")]
     public virtual Role? Role { get; set; }
 
+    [InverseProperty(nameof(DeliveryMan.User))]
+    public virtual DeliveryMan? DeliveryMan
+    {
+        get; set;
+    }
+
     [InverseProperty("User")]
     public virtual ICollection<UserPhone> UserPhones { get; set; } = new List<UserPhone>();
 }

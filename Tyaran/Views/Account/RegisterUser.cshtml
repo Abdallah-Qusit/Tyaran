@@ -1,0 +1,59 @@
+﻿@model Tyaran.BLL.ModelVM.ViewModels.RegisterUserViewModel
+
+<h2>Register User (Test)</h2>
+@if (ViewBag.DebugErrors != null)
+{
+    <div style="background:red; color:white; padding:10px;">
+        @ViewBag.DebugErrors
+    </div>
+}
+<form asp-action="RegisterUser" method="post">
+
+    <div>
+        <label>Name</label><br />
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label> (Username)</label><br />
+        <input asp-for="Username" />
+        <span asp-validation-for="Username"></span>
+    </div>
+    <div>
+        <label> Email</label><br />
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <div>
+        <label>Phone</label><br />
+        <input asp-for="Phone" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+
+    <div>
+        <label>Password</label><br />
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+
+    <div>
+        <label>Confirm Password</label><br />
+        <input asp-for="ConfirmPassword" type="password" />
+        <span asp-validation-for="ConfirmPassword"></span>
+    </div>
+
+    <br />
+
+    <button type="submit">Register</button>
+
+</form>
+
+<hr />
+
+<a asp-action="Login">Already registered? Login</a>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
