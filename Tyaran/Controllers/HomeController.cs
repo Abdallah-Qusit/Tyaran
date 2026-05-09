@@ -1,5 +1,6 @@
-using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using Tyaran.Models;
 
 namespace Tyaran.Controllers
@@ -12,8 +13,23 @@ namespace Tyaran.Controllers
         {
             _logger = logger;
         }
-
+        [Authorize(Roles = "User")]
         public IActionResult Index()
+        {
+            return View();
+        }
+        [Authorize(Roles = "Delivery")]
+        public IActionResult Index2()
+        {
+            return View();
+        }
+        [Authorize(Roles = "RestaurantOwner")]
+        public IActionResult Index3()
+        {
+            return View();
+        }
+        [Authorize(Roles = "Admin")]
+        public IActionResult Index4()
         {
             return View();
         }

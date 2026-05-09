@@ -1,0 +1,195 @@
+﻿@model Tyaran.BLL.ModelVM.ViewModels.RegisterRestaurantViewModel
+
+<h2>Register Restaurant</h2>
+
+<form asp-action="RegisterRestaurant"
+      asp-controller="Account"
+      method="post"
+      enctype="multipart/form-data">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <!-- OWNER INFO -->
+
+    <div>
+        <label asp-for="Name">Owner Name</label><br />
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Username">Username</label><br />
+        <input asp-for="Username" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email">Email</label><br />
+        <input asp-for="Email" type="email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Phone">Phone</label><br />
+        <input asp-for="Phone" type="tel" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <hr />
+
+    <!-- RESTAURANT INFO -->
+
+    <div>
+        <label asp-for="RestaurantName">Restaurant Name</label><br />
+        <input asp-for="RestaurantName" />
+        <span asp-validation-for="RestaurantName" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Street">Street</label><br />
+        <input asp-for="Street" />
+        <span asp-validation-for="Street" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="City">City</label><br />
+        <input asp-for="City" />
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+
+    <hr />
+
+    <!-- MAP -->
+
+    <h4>Select Restaurant Location</h4>
+
+    <div id="map"
+         style="height:400px; margin:10px 0; border:1px solid #ccc;">
+    </div>
+
+    <!-- HIDDEN LAT/LNG -->
+
+    <input type="hidden" asp-for="Latitude" id="Latitude" />
+    <input type="hidden" asp-for="Longitude" id="Longitude" />
+
+    <span asp-validation-for="Latitude" class="text-danger"></span>
+    <span asp-validation-for="Longitude" class="text-danger"></span>
+
+    <hr />
+
+    <!-- FILES -->
+
+    <div>
+        <label asp-for="Logo">Restaurant Logo</label><br />
+        <input asp-for="Logo" type="file" />
+        <span asp-validation-for="Logo" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="CommercialRegister">Commercial Register</label><br />
+        <input asp-for="CommercialRegister" type="file" />
+        <span asp-validation-for="CommercialRegister" class="text-danger"></span>
+    </div>
+
+    <hr />
+
+    <!-- PASSWORD -->
+
+    <div>
+        <label asp-for="Password">Password</label><br />
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="ConfirmPassword">Confirm Password</label><br />
+        <input asp-for="ConfirmPassword" type="password" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <button type="submit">
+        Register Restaurant
+    </button>
+
+</form>
+
+<hr />
+
+<a asp-action="Login" asp-controller="Account">
+    Already registered? Login
+</a>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+
+    <!-- Leaflet CSS -->
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <!-- Leaflet JS -->
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+
+        const defaultLat = 30.0444;
+        const defaultLng = 31.2357;
+
+        const map = L.map('map')
+            .setView([defaultLat, defaultLng], 13);
+
+        L.tileLayer(
+            'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            {
+                maxZoom: 19,
+                attribution: '© OpenStreetMap'
+            }
+        ).addTo(map);
+
+        let marker;
+
+        // Existing coordinates (for edit scenarios)
+
+        const existingLat =
+            document.getElementById('Latitude').value;
+
+        const existingLng =
+            document.getElementById('Longitude').value;
+
+        if (existingLat && existingLng) {
+
+            marker = L.marker([
+                parseFloat(existingLat),
+                parseFloat(existingLng)
+            ]).addTo(map);
+
+            map.setView([
+                parseFloat(existingLat),
+                parseFloat(existingLng)
+            ], 15);
+        }
+
+        // Select location on click
+
+        map.on('click', function (e) {
+
+            const lat = e.latlng.lat;
+            const lng = e.latlng.lng;
+
+            if (marker) {
+                marker.setLatLng(e.latlng);
+            }
+            else {
+                marker = L.marker(e.latlng).addTo(map);
+            }
+
+            document.getElementById('Latitude').value = lat;
+            document.getElementById('Longitude').value = lng;
+        });
+
+    </script>
+}

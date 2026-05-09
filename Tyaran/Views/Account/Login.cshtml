@@ -1,0 +1,36 @@
+﻿@model Tyaran.BLL.ModelVM.ViewModels.LoginViewModel
+
+<h2>Login</h2>
+
+<form asp-action="Login" method="post">
+
+    <div>
+        <label>Username</label>
+        <input asp-for="Username" />
+        <span asp-validation-for="Username"></span>
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+
+    <div>
+        <input asp-for="RememberMe" type="checkbox" />
+        <label asp-for="RememberMe">Remember me</label>
+    </div>
+
+    <button type="submit">Login</button>
+
+    <div style="color:red">
+        @Html.ValidationSummary()
+    </div>
+
+</form>
+
+<a asp-action="RegisterUser">Create new account</a>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

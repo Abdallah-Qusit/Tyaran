@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">RESTAURANT</h1>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <form asp-action="Logout" asp-controller="Account" method="post">
+
+            <button type="submit">Logout</button>
+
+        </form>
+    }
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

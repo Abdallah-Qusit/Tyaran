@@ -11,12 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ModelVM\" />
     <Folder Include="Mapper\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Common\" />
-    <Folder Include="Service\Abstraction\" />
-    <Folder Include="Service\Implementation\" />
   </ItemGroup>
 
   <ItemGroup>
